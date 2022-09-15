@@ -1,0 +1,38 @@
+{
+  "store.home": {
+    "blocks": ["rich-text", "info-card#button-right", "info-card#link-left"
+    //  "product-images", "product-name", "product-price", "buy-button"
+    ]
+  },
+  "rich-text": {
+    "props": {
+      "text": "**Hello, World!**",
+      "textPosition": "CENTER"
+    }
+  },
+    "info-card#button-right": {
+      "props": {
+        "isFullModeStyle": false,
+        "textPosition": "right",
+        "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-rosa-min.png",
+        "headline": "Vintage Pink",
+        "subhead": "Give your kitchen a boho style adding vintage apparels.<br>Available until January 2020.",
+        "callToActionMode": "button",
+        "callToActionText": "Explore",
+        "callToActionUrl": "/sale/d",
+        "textAlignment": "center"
+      }
+    },
+		"info-card#link-left":{
+			"props": {
+				"isFullModeStyle": false, // default is false;
+				"headline": "Shining chrome",
+				"callToActionText": "Go to Collection",
+				"callToActionMode": "link", //Sets Call to Action component mode, default is button
+				"imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
+				"subhead": "Give your kitchen a cool style adding warm metallic finishes.<br>Available until January 2020.",
+				"textPosition": "left", //This prop is ignored if isFullModeStyle is true. default is left;
+        "textAlignment": "center"
+			}
+		}
+}
